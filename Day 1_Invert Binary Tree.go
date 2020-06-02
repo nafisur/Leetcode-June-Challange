@@ -1,3 +1,5 @@
+package leetcode
+
 /*
 Invert Binary Tree
 Solution
@@ -20,7 +22,6 @@ Output:
  / \   / \
 9   6 3   1
 */
-package leetcode
 
 type TreeNode struct {
 	Val   int
