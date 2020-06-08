@@ -19,8 +19,6 @@ Input: 218
 Output: false
 */
 func isPowerOfTwo(n int) bool {
-	if n <= 0 {
-		return false
-	}
+
 	return (n&(n-1)) == 0 && n > 0
 }
